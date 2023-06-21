@@ -35,3 +35,20 @@ header {
   height: 640px;
   width: 420px;
 }
+
+#welcome {
+  text-align: center;
+  font-size: xx-large;
+  text-decoration-line: underline;
+  font-family: inherit;
+}
+
+#intro {
+  font-size: x-large;
+  text-align: center;
+}
+
+.quote {
+  text-align: center;
+  font-family: cursive;
+}
