@@ -52,3 +52,13 @@ header {
   text-align: center;
   font-family: cursive;
 }
+
+#bulldozer {
+  height: 140
+  width: 400;
+}
+
+.items {
+  font-weight: 400;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
