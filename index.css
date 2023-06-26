@@ -16,12 +16,11 @@ body {
   text-align: center;
   font-weight: 800;
   font-size: x-large;
-  color: lightgray;
+  border-style: double;
 }
 
 #Name {
   text-align: center;
-  color: lightgray;
   font-size: xx-large;
   text-decoration: underline wavy black;
 }
@@ -52,7 +51,7 @@ body {
 }
 
 #bulldozer {
-  height: 140;
+  height: 250;
   width: 400;
 }
 
