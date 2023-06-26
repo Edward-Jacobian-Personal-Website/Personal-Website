@@ -19,6 +19,19 @@ body {
   border-style: double;
 }
 
+a {
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  color: #54b3d6;
+  padding: 0 .25rem;
+  margin: 0 -.25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+a:hover {
+  color: #fff;
+  box-shadow: inset 200px 0 0 0 #54b3d6;;
+}
+
+
 #Name {
   text-align: center;
   font-size: xx-large;
@@ -58,4 +71,18 @@ body {
 .items {
   font-weight: 400;
   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media (max-width: 320px) {
+  .container {
+    flex-direction: column-reverse;  
+    color: black;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column-reverse;
+    color: lightgray;
+  }
 }
